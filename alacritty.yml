@@ -55,3 +55,15 @@ colors:
 
 background_opacity: 1.00
 
+key_bindings:
+  - { key: V, mods: Command|Shift, action: Paste }
+  - { key: C, mods: Command|Shift, action: Copy }
+
+  - { key: Home, chars: "\x1bOH", mode: AppCursor   }
+  - { key: Home, chars: "\x1b[H", mode: ~AppCursor  }
+  - { key: End, chars: "\x1bOF", mode: AppCursor   }
+  - { key: End, chars: "\x1b[F", mode: ~AppCursor  }
+
+  - { key: Equals, mods: Command, action: IncreaseFontSize }
+  - { key: Minus, mods: Command, action: DecreaseFontSize }
+
