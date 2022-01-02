@@ -53,3 +53,5 @@ colors:
     cyan:    '0x83a598'
     white:   '0xebdbb2'
 
+background_opacity: 1.00
+
